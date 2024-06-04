@@ -1,0 +1,71 @@
+.formContainer{
+    margin-right: 2vw;
+    margin-top: 4vh;
+    margin-bottom: 5vh;
+    direction: rtl !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+
+    label{
+        margin-right: 2vw;
+        display: block;
+        margin-bottom: 1vh;
+        width: 20vw;
+    }
+    input[type="text"],input[type="number"]{
+        background: rgb(197, 194, 194);
+        border: 1px solid black;
+        margin-right: 2vw;
+        width: 45vw;
+        padding: 2px 8px;
+
+    }
+    input[type="submit"]{
+        background:black;
+        cursor: pointer;
+        color: white;
+        width: 280px;
+        margin: auto;
+        margin-top: 2vh;
+        margin-right: 2vw;
+        &:hover{
+            background-color: rgba(55, 105, 49, 0.733);
+        }
+
+    }
+}
+
+
+.tableContainer{
+    table{
+        margin-top: 3vh;
+        float: right;
+    }
+    th{
+        padding: 2px 6px;
+        border: 1px solid black;
+
+    }
+    td{
+        padding: 3px 14px;
+        border: 1px solid black;
+    }
+}
+
+
+.exportBtn{
+    float: right;
+    background:black;
+    cursor: pointer;
+    color: white;
+    width: 280px;
+    margin: auto;
+    margin-top: 2vh;
+    margin-right: 4vw;
+    &:hover{
+        background-color: rgba(55, 105, 49, 0.733);
+    }
+}
